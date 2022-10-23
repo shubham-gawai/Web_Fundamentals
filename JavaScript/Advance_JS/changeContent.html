@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script>
+      function change_h2_Text() {
+        //get the reference of h2 element
+        var h2 = document.getElementById("h2Id");
+        var p = document.getElementById("p1");
+
+        //chnage the content of h2 element using innerText Property
+        h2.innerText = "Hello JS, you are easy to understand";
+        p.innerText = "I am Programming Language";
+ 
+      }
+
+       // change the content in the List :
+      function change_topics() {
+        var L0 = document.getElementById('heading');
+        L0.innerText = "JavaScript Topics";
+
+        var L1 = document.getElementById('e1');
+        L1.innerText = "Loops";
+
+        var L2 = document.getElementById('e2');
+        L2.innerText = "Arrays";
+
+        var L3 = document.getElementById('e3');
+        L3.innerText = "String";
+
+        var L4 = document.getElementById('e4');
+        L4.innerText = "DOM";
+
+      }
+    </script>
+    <style>
+      body {
+        background-color: lightcoral;
+      }
+      h2 {
+        color: white;
+      }
+      #content {
+        background-color: lightseagreen;
+        width: 500px;
+        margin: 100px auto;
+        padding: 50px;
+        box-shadow: 0 0 10px black;
+        text-align: center;
+      }
+      #list {
+        background-color: lightgreen;
+        width: 500px;
+        margin: 100px auto;
+        padding: 50px;
+        box-shadow: 0 0 10px black;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="content">
+      <h2 id="h2Id">Hello HTML, You are Awesome</h2>
+      <p id="p1">I am Markup Language</p>
+      <button onclick="change_h2_Text()">Change Content</button>
+    </div>
+
+    <div id="list">
+      <h3 id="heading">HTML Topics</h3>
+      <ul>
+        <li id="e1">Elements</li>
+        <li id="e2">Attributes</li>
+        <li id="e3">Iframe</li>
+        <li id="e4">Forms</li>
+      </ul>
+      <button onclick="change_topics()">Change Topics</button>
+    </div>
+  </body>
+</html>

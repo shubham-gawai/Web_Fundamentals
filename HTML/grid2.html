@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>grid page</title>
+    <style>
+        .container{
+            display: grid;
+            height: 490px;
+            width: 630px;
+            grid-template-areas: 
+            'box1 box1 box2'
+            'box1 box1 box3'
+            'box4 box5 box6';
+            grid-gap: 6px;
+        }
+        .box1{
+            background-image: url('https://img.freepik.com/free-photo/_116407-11929.jpg?size=240&ext=jpg');
+        }
+        .box2{
+            
+            background-image: url('https://img.freepik.com/free-photo/_149660-629.jpg?size=240&ext=jpg');
+        }
+        .box3{
+            background-image: url('https://img.freepik.com/free-psd/take-away-coffee-cup-bag-paper-package-mockup_58466-14892.jpg?size=626&ext=jpg&ga=GA1.2.234515553.1662736605');
+        }
+        .box4{
+            background-image: url('https://img.freepik.com/free-photo/_116407-11929.jpg?size=240&ext=jpg');
+        }
+        .box5{
+            background-image: url('https://img.freepik.com/free-photo/_149660-629.jpg?size=240&ext=jpg');
+        }
+        .box6{
+            background-image: url('https://img.freepik.com/free-photo/_53876-88891.jpg?size=240&ext=jpg');
+        } 
+        div{
+            color: rgb(239, 4, 4);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box box1"></div>
+        <div class="box box2"></div>
+        <div class="box box3"></div>
+        <div class="box box4"></div>
+        <div class="box box5"></div>
+        <div class="box box6"></div>
+
+    </div>
+</body>
+</html>

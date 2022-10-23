@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blog Website</title>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+      }
+      nav {
+        background-color: aliceblue;
+        padding: 30px;
+        text-align: center;
+      }
+      a {
+        text-decoration: none;
+        font-size: 20px;
+        padding: 6px 10px;
+        color: #000;
+        text-align: center;
+      }
+      main {
+        padding: 30px 70px;
+        background: beige;
+      }
+      footer {
+        background-color: #000;
+        text-align: center;
+        color: #fff;
+        font-size: 30px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a href="#">HTML</a>
+        <a href="#">CSS</a>
+        <a href="#">Javascript</a>
+      </nav>
+    </header>
+    <main>
+      <section>
+        <h1>HTML</h1>
+        <!-- mp4, webm, ogg -->
+        <video
+          width="300"
+          height="200"
+          poster="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0jJ8yJQXBzH1o7ImJLzSdOLT1cCB-m5dpsg&usqp=CAU"
+          controls
+        >
+          <source
+            src="https://www.youtube.com/embed/pQN-pnXPaVg"
+            type="video/mp4"
+          />
+        </video>
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/pQN-pnXPaVg"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+
+        <iframe
+          src="./demo.html"
+          width="560"
+          height="315"
+          frameborder="1"
+        ></iframe>
+
+        <!-- mp3, ogg,wav -->
+        <audio controls autoplay muted>
+          <source src="./media/audio.mp3" type="audio/mpeg" />
+        </audio>
+
+        <canvas
+          id="canvas"
+          width="400"
+          height="200"
+          style="border: 2px black solid"
+        ></canvas>
+
+        <span>My Skills</span>
+        HTML<progress value="55" max="100"></progress> CSS<progress
+          value="100"
+          max="100"
+        ></progress>
+
+        <p>
+          What is Lorem Ipsum? Lorem Ipsum is simply dummy text of the printing
+          and typesetting industry. Lorem Ipsum has been the industry's standard
+          dummy text ever since the 1500s, when an unknown printer took a galley
+          of type and scrambled it to make a type specimen book. It has survived
+          not only five centuries, but also the leap into electronic
+          typesetting, remaining essentially unchanged. It was popularised in
+          the 1960s with the release of Letraset sheets containing Lorem Ipsum
+        </p>
+        <p>
+          assages, and more recently with desktop publishing software like Aldus
+          PageMaker including versions of Lorem Ipsum. Why do we use it? It is a
+          long established fact that a reader will be distracted by the readable
+          content of a page when looking at its layout. The point of using Lorem
+          Ipsum is that it has a more-or-less normal distribution of letters, as
+          opposed to using 'Content here, content here', making it look like
+          readable English. Many desktop publishing packages and web page
+          editors now use Lorem Ipsum as their default model text, and a search
+          for 'lorem ipsum' will uncover many web sites still in their infancy.
+          Various versions have evolved over the years, sometimes by accident,
+          sometimes on purpose (injected humour and the like).
+        </p>
+      </section>
+    </main>
+    <footer>
+      <h1>This is footer</h1>
+    </footer>
+
+    <script>
+      let c = document.getElementById('canvas');
+      let value = c.getContext('2d');
+      value.font = '20px Arial';
+      value.fillText('Hello World', 10, 50);
+    </script>
+  </body>
+</html>

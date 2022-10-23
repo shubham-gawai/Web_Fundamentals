@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <script>
+        function createNewTag(){
+            var pRef = document.createElement("h1");
+            var inputref = documnet.getElementById('001');
+            pRef.value =inputref;
+
+            pRef.document.getElemntById('111').appendChild(inputref);
+        }
+    </script>
+</head>
+<body id="111">
+    <input type="text" placeholder="type here" id="001">
+    <button onclick="createNewTag()">submit</button>
+</body>
+</html>

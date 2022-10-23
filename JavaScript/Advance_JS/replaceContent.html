@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+<style>
+      div {
+        background-color: rgb(42, 160, 42);
+        width: 500px;
+        margin: 100px auto;
+        padding: 50px;
+        text-align: center;
+      }
+      #para {
+        color: whitesmoke;
+      }
+</style>
+<script>
+    // function to chnage the text to the content type in the input area :
+    function replaceText(){
+        var inputRef = document.getElementById('101');
+        var inputValue = inputRef.value;
+        var paraRef = document.getElementById('para');
+        paraRef.innerText = inputValue;
+    }
+</script>
+</head>
+<body>
+<div>
+    <input id="101" type="text" placeholder="Tpye Something" />
+    <button onclick="replaceText()">Submit</button>
+    <h1 id="para">TextPlace</h1>
+</div>
+</body>
+</html>

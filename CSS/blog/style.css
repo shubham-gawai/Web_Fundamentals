@@ -1,0 +1,151 @@
+@import url('./variable.css');
+/* universal selector */
+
+* {
+  background-color: white;
+  padding: 0;
+  margin: 0;
+}
+
+/* type selector */
+
+/* class selector */
+/* .class-name{
+    property: value;
+} */
+.para {
+  background-color: yellow;
+}
+
+.para1 {
+  border: 1px solid black;
+}
+
+/* id selector */
+/* #id-name{
+    property: value;
+} */
+
+#sp-para {
+  background-color: azure;
+}
+
+/* Grouping selector */
+
+h1,
+h2,
+p {
+  background-color: aliceblue;
+}
+
+/* attribute selector */
+/* tagname[attribute-name]{
+    prop: val
+} */
+
+/* a[target] {
+  background-color: green;
+}
+
+/* tagname[attribute="value"]{
+    prop: val
+} */
+
+a[target='_blank'] {
+  color: white;
+}
+*/ input[type='text'] {
+  width: 50%;
+  height: 40px;
+  font-size: 40px;
+}
+
+/* psuedo classes */
+/*  :hover, :focus , :first-child*/
+
+button {
+  border: none;
+  background-color: chartreuse;
+  padding: 12px;
+  border-radius: 8px;
+}
+h1:first-child {
+  color: blue;
+}
+
+h1:nth-child(2n + 1) {
+  color: green;
+}
+
+button:hover {
+  border: 1px solid black;
+  background-color: aliceblue;
+  cursor: pointer;
+}
+input:focus {
+  background-color: aqua;
+}
+
+/* unvisited links */
+.link:link {
+  color: red;
+}
+/* visited links */
+.link:visited {
+  color: green;
+}
+
+.link:hover {
+  color: blue;
+}
+
+/* selected link */
+.link:active {
+  color: coral;
+}
+
+/* pseudo elements */
+
+/* ::first-line, ::first-letter , ::before*/
+.lorem::first-line {
+  color: red;
+}
+
+.lorem::first-letter {
+  text-transform: lowercase;
+  color: black;
+}
+
+.lorem::before {
+  content: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRA1deWMAEdBsxQi-Xxez3O9Z6dnpqaXCsn3I2cXdBVWw&s');
+}
+
+.lorem::after {
+  content: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRA1deWMAEdBsxQi-Xxez3O9Z6dnpqaXCsn3I2cXdBVWw&s');
+}
+
+ul::marker {
+  color: aqua;
+}
+
+/* descendant selector */
+div p {
+  background-color: bisque;
+}
+
+/* child selector */
+
+div > p {
+  color: blue;
+}
+
+/* sibling selector */
+div ~ p {
+  background-color: cadetblue;
+}
+
+/* adjacent sibling selector */
+
+div + p {
+  background-color: yellow;
+}

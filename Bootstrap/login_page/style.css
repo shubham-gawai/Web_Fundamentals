@@ -1,0 +1,63 @@
+body {
+  background-image: url("https://lh5.googleusercontent.com/-YBpVvAXmrUEDmdehHY4JLm4KsyyZGvuBn93qjLj_aDK8uLO10383RoiRvOm_biike2pplFuMnUbRPRmczHzoi3GZ3U5sYerCPC2Jrx2I4Rr1tqLonwm6uv88WnG2j88SA=w740");
+  background-repeat: no-repeat;
+  background-size: 1700px;
+  height: 1900px;
+}
+
+.container {
+  margin: 1180px;
+  margin-right: 524px !important;
+  background-color: rgba(0, 0, 0, 0.8);
+  text-align: center;
+  width: 460px !important;
+  height: 414px;
+  box-shadow: rgba(0, 0, 0, 0.6) 0px 3px 8px;
+}
+.heading {
+  color: aliceblue;
+  padding-top: 1.8rem;
+  font-family: "Lobster Two";
+}
+.items {
+  margin-top: 1.8rem;
+}
+.submit {
+  border: 1px solid red;
+  background-color: transparent;
+  color: rgb(199, 27, 27);
+  margin-top: 1.8rem;
+  width: 320px;
+  height: 38px;
+  font-family: "Lobster Two";
+  border-radius: 13px;
+}
+input {
+  background-color: transparent;
+  border: none;
+  border-bottom: 2px solid aliceblue;
+  width: 400px;
+  font-family: "Lobster Two";
+}
+.input_1,
+input:focus {
+  margin-bottom: 2rem;
+  height: 34px;
+  color: #ffffff;
+}
+.input_2,
+input:focus {
+  margin-bottom: 0.8rem;
+  height: 34px;
+  color: #ffffff;
+}
+ul li {
+  padding-top: 1.2rem;
+  text-decoration: underline;
+  list-style-type: none;
+  margin-right: 34px;
+}
+ul li a {
+  color: aliceblue !important;
+  font-family: "Lobster Two";
+}

@@ -1,0 +1,36 @@
+.body{
+
+}
+.heading{
+    display: flex;
+    justify-content: space-between;
+    padding: 60px;
+    margin : 40px;
+    width: 1020px;
+    background-color: rgb(5, 78, 78);
+    font-family: 'Roboto';
+
+}
+
+.about , .name{
+    color: aliceblue;
+}
+
+.about{
+    margin-left: 27PX;
+    line-height: 32px
+}
+.name{
+    margin-right: 80px;
+    align-content: center;
+    font-family: 'Mulish';
+}
+.name h3{
+    margin-top: 20px;
+    font-family: 'Mulish';
+    font-size: x-large;
+
+}
+.summary p{
+    margin-left: 68px;
+}
