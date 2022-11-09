@@ -53,7 +53,8 @@ body {
   -webkit-transition: all 0.2s linear;
   -o-transition: all 0.2s linear;
   transition: all 0.2s linear;
-  background-color: rgba(210, 223, 236, 0.989);
+  
+  background-color: rgb(224, 239, 226);
  
 }
 .header_wrapper .navbar-brand img {
@@ -113,7 +114,7 @@ body {
   display: flex;
   width: 100%;
   padding: 100px 0 125px;
-  background: url(../images/bg.png) no-repeat;
+  background: url(images/bg.png) no-repeat;
   background-size: cover;
   justify-content: center;
   align-items: center;
@@ -286,7 +287,7 @@ body {
   border-radius: 15px;
 }
 .features_wrapper .ft-1:before {
-  content: url(../images/consultancy.png);
+  content: url(images/consultancy.png);
   position: absolute;
   display: block;
   margin-top: -70px;
@@ -297,7 +298,7 @@ body {
   border-radius: 15px;
 }
 .features_wrapper .ft-2:before {
-  content: url(../images/solutions.png);
+  content: url(images/solutions.png);
   position: absolute;
   display: block;
   margin-top: -70px;
@@ -308,7 +309,7 @@ body {
   border-radius: 15px;
 }
 .features_wrapper .ft-3:before {
-  content: url(../images/simple.png);
+  content: url(images/simple.png);
   position: absolute;
   display: block;
   margin-top: -70px;
@@ -319,7 +320,7 @@ body {
   border-radius: 15px;
 }
 .features_wrapper .ft-4:before {
-  content: url(../images/deadline.png);
+  content: url(images/deadline.png);
   position: absolute;
   display: block;
   margin-top: -70px;
@@ -330,7 +331,7 @@ body {
   border-radius: 15px;
 }
 .features_wrapper .ft-5:before {
-  content: url(../images/data.png);
+  content: url(images/data.png);
   position: absolute;
   display: block;
   margin-top: -70px;
@@ -341,7 +342,7 @@ body {
   border-radius: 15px;
 }
 .features_wrapper .ft-6:before {
-  content: url(../images/flexible.png);
+  content: url(images/flexible.png);
   position: absolute;
   display: block;
   margin-top: -70px;
@@ -646,7 +647,7 @@ body {
 .footer_wrapper {
   padding-top: 100px;
   padding-bottom: 25px;
-  background: url(../images/bg_footer.png) no-repeat;
+  background: url(images/bg_footer.png) no-repeat;
   background-size: cover;
   background-color: var(--bg-black);
   color: var(--text-white);
