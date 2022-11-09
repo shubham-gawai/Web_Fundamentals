@@ -53,6 +53,7 @@ body {
   -webkit-transition: all 0.2s linear;
   -o-transition: all 0.2s linear;
   transition: all 0.2s linear;
+  background-color: rgba(210, 223, 236, 0.989);
  
 }
 .header_wrapper .navbar-brand img {

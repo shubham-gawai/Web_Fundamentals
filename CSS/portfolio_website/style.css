@@ -142,15 +142,19 @@ body {
 
 /* contact section */
 .contact {
+  
   display: grid;
   grid-template-columns: repeat(2, 50%);
  
 }
 
 .contact .image img {
-  width: 80%;
+  width: 48%;
   padding: 16% 13%;
-  
+  margin-left: 10%;
+}
+.image img{
+  border-radius: 50%;
 }
 
 .contact .content {
