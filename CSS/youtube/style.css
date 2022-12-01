@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.outerMostDiv{
+    height: 100vh;
+    width: 100vw;
+    border: 2px solid red;
+}
+.navbarMainContainer{
+    width: 100%;
+    height: 10%;
+    border: 2px solid green;
+   
+    
+}
+.mainContentMainContainer{
+    width: 100%;
+    height: 90%;
+    border: 2px solid blue;
+    display: flex;
+}
+.mainContentLeftSection{
+    width: 20%;
+    height: 100%;
+    border: 2px solid rgb(255, 0, 0);
+}
+.mainContentRightSection{
+    width: 80%;
+    height: 100%;
+    border: 2px solid rgb(255, 0, 0);
+}
+.mainContentRightSectionTop{
+    width: 100%;
+    height: 10%;
+     
+    border: 2px solid green;
+}
+.mainContentRightSectionTop{
+    width: 100%;
+    height: 85%;
+     
+    border: 2px solid green;
+}

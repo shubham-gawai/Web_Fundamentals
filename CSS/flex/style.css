@@ -1,0 +1,34 @@
+.mainContainer{
+    border: 2px solid red;
+    height: 50vh;
+    display: flex;
+    /* flex-direction: row; */
+    flex-direction: column;
+    /* justify-content: center; */
+    /* justify-content: space-between; */
+    /* justify-content: space-around; */
+    /* justify-content: space-evenly; */
+
+    /* align-items: center; */
+    /* align-items: flex-start; */
+}
+
+.subContainer1,
+.subContainer2,
+.subContainer3,
+.subContainer4{
+    border: 2px solid black;
+    /* height: fit-content;
+    width: fit-content; */
+}
+.subContainer1{
+     display: flex;
+     justify-content: flex-start;
+    
+}
+.subContainer2{
+    
+    display: flex;
+     justify-content: flex-end;
+   
+}
