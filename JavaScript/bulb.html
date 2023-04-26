@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bulb</title>
+    <style>
+        #circle{
+            margin: auto;
+            height: 240px;
+            width: 240px;
+            border: 1.2px solid rgba(0, 0, 0, 0.479);
+            border-radius: 50%;
+        }
+        button{
+            border-radius: 2px;
+            width: 74px;
+            border:2px solid green;
+            background-color: rgba(96, 168, 179, 0.399);
+        }
+        #main{
+            text-align: center;
+        }
+        :hover #circle{
+            width: 450px;
+            height: 450px;
+        }
+    </style>
+</head>
+<body>
+    <div id="main">
+        <div id="circle"></div>
+        <button onclick="on()">on</button>
+        <button onclick="off()">off</button>
+    </div>
+
+    <script>
+        var divRef = document.getElementById('circle');
+        function on(){
+            divRef.style.backgroundColor="yellow";
+        }
+        function off(){
+            divRef.style.backgroundColor="pink"; 
+    }
+    </script>
+</body>
+</html>

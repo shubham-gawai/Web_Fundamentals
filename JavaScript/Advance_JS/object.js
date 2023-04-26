@@ -3,7 +3,7 @@
 var obj = {
     name : 'Shubham',
     getCity : function (){
-        console.log('Delhi');
+        console.log('Pune');
     },
     marks : [90,87,78,96]
 }

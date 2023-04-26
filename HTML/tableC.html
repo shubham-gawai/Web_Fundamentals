@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+    <style>
+        table{
+            margin: auto;
+            margin-top: 3rem;
+            height: 350px;
+            width: 820px;
+        }
+        table, tr, td{
+            border-collapse: collapse;
+            border: 2.6px solid green;
+            text-align: center;
+        }
+        h2{
+            font-family:sans-serif;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h2>Table example for rowspan and colspan cell merge/spread</h2>
+    <table>
+        <tr>
+            <td rowspan="2">A</td>
+            <td>B</td>
+            <td rowspan="3">C</td>
+            <td>D</td>
+        </tr>
+
+        <tr>
+            <td>E</td>
+            <td rowspan="3">G</td>
+            <td rowspan="3">H</td>
+        </tr>
+
+        <tr>
+            <td colspan="2">F</td>
+        </tr>
+
+        <tr>
+            <td colspan="3">I</td>
+        </tr>
+    </table>
+</body>
+</html>

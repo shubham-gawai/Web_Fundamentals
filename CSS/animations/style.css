@@ -3,7 +3,9 @@ div{
     background-color: brown;
     height: 150px;
     width: 156px;
+    border-radius: 50%;
     text-align: center;
+
 
     animation-name:divColr;
     animation-duration: 6s;

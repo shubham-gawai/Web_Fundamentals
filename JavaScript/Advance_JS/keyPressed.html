@@ -1,65 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <title>Document</title>
+    <style>
+      p {
+        font-size: 55px;
+        border: 2px solid black;
+        box-shadow: 0px 0px 5px black;
+        padding: 10px 40px;
+        font-weight: 900;
+        -webkit-text-stroke: 1px gray;
+      }
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-  <title>Document</title>
-  <style>
-    p {
-      font-size: 55px;
-      border: 2px solid black;
-      box-shadow: 0px 0px 5px black;
-      padding: 10px 40px;
-      font-weight: 900;
-      -webkit-text-stroke: 1px gray;
-    }
+      span {
+        color: chartreuse;
+        -webkit-text-stroke: 1px black;
+      }
 
-    span {
-      color: chartreuse;
-      -webkit-text-stroke: 1px black;
-    }
+      .sec1 {
+        width: 800px;
+        text-align: center;
+      }
 
-    .sec1 {
-      width: 800px;
-      text-align: center;
-    }
+      .sec2 {
+        width: 200px;
+        text-align: center;
+      }
 
-    .sec2 {
-      width: 200px;
-      text-align: center;
-    }
+      .span2 {
+        font-size: 100px;
+      }
+    </style>
+  </head>
 
-    .span2 {
-      font-size: 100px;
-    }
-  </style>
-</head>
-
-<body onkeyup="inputFromKey(event)">
-  <div class="container mt-5">
-    <div class="row">
-      <div class="col-md-8 mx-auto">
-        <p class="sec1" id="pid1">Press any Keyboard Key</p>
-        <div class="d-flex justify-content-center">
-          <p class="sec2" id="pid2"><span>0</span></p>
+  <body onkeyup="inputFromKey(event)">
+    <div class="container mt-5">
+      <div class="row">
+        <div class="col-md-8 mx-auto">
+          <p class="sec1" id="pid1">Press any Keyboard Key</p>
+          <div class="d-flex justify-content-center">
+            <p class="sec2" id="pid2"><span>0</span></p>
+          </div>
         </div>
       </div>
     </div>
-  </div>
-  <script>
-    document.getElementById("pid2").style.display = "none";
-    function inputFromKey(e) {
-      let pref1 = document.getElementById("pid1");
-      pref1.innerHTML = `You Pressed <span>${e.key}</span>`;
-      document.getElementById("pid2").style.display = "block";
-      let pref2 = document.getElementById("pid2");
-      pref2.innerHTML = `<span class="span2">${e.keyCode}</span>`;
-    }
-  </script>
-</body>
-
+    <script>
+      document.getElementById("pid2").style.display = "none";
+      function inputFromKey(e) {
+        let pref1 = document.getElementById("pid1");
+        pref1.innerHTML = `You Pressed <span>${e.key}</span>`;
+        document.getElementById("pid2").style.display = "block";
+        let pref2 = document.getElementById("pid2");
+        pref2.innerHTML = `<span class="span2">${e.keyCode}</span>`;
+      }
+    </script>
+  </body>
 </html>

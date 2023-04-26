@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+    <script>
+        function func(){
+            var divRef = document.getElementById('divId');
+            divRef.style.backgroundColor = "yellow"; 
+        }
+        func();
+        
+    </script>
+    <style>
+        div{
+            margin: auto;
+            border: 2px solid black;
+            height: 240px;
+            width:240px ;
+            border-radius: 50%;
+        }
+        button{
+            width: 70px;
+            height: 21px;
+        }
+    </style>
+<body>
+    <div id="divId">Circle</div>
+    <button onclick="func()" id="button">button</button>
+</body>
+</html>
