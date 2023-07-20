@@ -2,13 +2,18 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Mulish', sans-serif;
-    background-color: #93619b;
+    /* background-color: #93619b; */
+    /* background-color: rgb(253,245,240); */
+    background-color: rgb(255,121,77);
+
   }
  
+  /* Navbar */
   .nav-items {
     position: fixed;
     top: 0%;
-    background-color: #6e2e78;
+    /* background-color: #6e2e78; */
+    background-color: rgb(209, 109, 76);
     width: 100%;
     box-shadow: 0px 0px 8px rgba(242, 238, 238, 0.1);
     padding: 15px;
@@ -27,7 +32,7 @@ body {
     color: #000;
     font-weight: 900;
   }
-  
+
   /* banner section */
   .container {
     width: 100%;
@@ -36,17 +41,22 @@ body {
   }
   .banner {
     display: grid;
-    background-color: #93619b;
+    /* background-color: #93619b;*/
+    background-color: rgb(255,121,77);
     grid-template-columns: repeat(2, 50%);
     
   }
   
   .banner .image img {
-    width: 70%;
-    height: 80%;
+    width: 60%;
+    height: 70%;
     padding-left: 17%;
-    padding-top: 12%;
+    padding-top: 12%; 
+    border-radius: 24px 24px 24px;
   }
+  /* .container .image{
+    border-radius: 120px;
+  } */
   
   .banner .content {
     padding: 6% 0%;
@@ -65,7 +75,7 @@ body {
   }
   
   .btn {
-    background-color: #a0486b;
+    background-color: rgba(33, 65, 123, 0.856);
     color: #fff;
     font-size: 16px;
     font-weight: 700;
@@ -76,10 +86,14 @@ body {
     cursor: pointer;
   }
   
+
 /* about me section */
+
 .about {
   display: grid;
-  background-color: #93619b;
+  /* background-color: #93619b; */
+    background-color: rgb(255,121,77);
+
   grid-template-columns: repeat(2, 50%);
 }
 
@@ -106,11 +120,15 @@ body {
   font-size: 19px;
 }
 
+
 /* skills section */
 .skills .content {
   font-family: "Lato", sans-serif;
   padding: 2% 10%;
-  background-color: #93619b;
+  /* background-color: #93619b;
+   */
+    background-color: rgb(255,121,77);
+
 }
 
 .skills .content .title {
@@ -129,7 +147,7 @@ body {
 .skills .grid-container .grid-item {
   border: 1px solid #ddd;
   background: #fff;
-  border-bottom: 5px solid #93619b;;
+  border-bottom: 5px solid #93619b;
   padding: 7% 6%;
   border-radius: 8px;
 }
@@ -140,12 +158,12 @@ body {
   color: #6b8363;
 }
 
+
 /* contact section */
 .contact {
   
   display: grid;
   grid-template-columns: repeat(2, 50%);
- 
 }
 
 .contact .image img {
@@ -153,10 +171,6 @@ body {
   padding: 16% 13%;
   margin-left: 10%;
 }
-.image img{
-  border-radius: 50%;
-}
-
 .contact .content {
   font-family: "Lato", sans-serif;
   padding: 0% 10%;
@@ -183,10 +197,12 @@ body {
 
 /* footer section */
 .footer {
-  background-color: #6e2e78;
+  /* background-color: #6e2e78; */
+  background-color: rgba(227, 96, 52, 0.947);
+
   font-family: "Lato";
   text-align: center;
-  color: #fff;
+  color: #000000;
   padding: 2% 0%;
 }
 .footer .footer-title h2 {
@@ -195,7 +211,7 @@ body {
 }
 .footer .social-sites .footer-icons a {
   text-decoration: none;
-  color: #fff;
+  color: #050505;
   padding: 10px 12px;
   font-size: 20px;
 }
